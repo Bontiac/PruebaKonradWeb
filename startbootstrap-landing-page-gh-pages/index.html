@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Landing Page - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/landing-page.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" area-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Ingresa tu codigo y contraseña</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span area-hidden="false">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    Usuario:
+                    <input type="text">
+                </div>
+                <div class="modal-body">
+                    contraseña:
+                    <input type="text">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Ingresar</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-light bg-light static-top">
+
+        <div class="container">
+            <div>
+                <img src="img/k.png" style="height: 40px;">
+                <a class="navbar-brand" href="#">Fundacion Universitaria Konrad Lorenz</a>
+            </div>
+
+
+
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Ingresar
+</button>
+
+            <!-- Modal -->
+
+
+
+        </div>
+    </nav>
+
+    <!-- Masthead -->
+    <header class="masthead text-white text-center">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mx-auto">
+                    <h1 class="mb-5">Fundacion Universitaria Konrad Lorenz</h1>
+                </div>
+                <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+                    <form>
+                        <div class="form-row">
+                            <div class="col-12 col-md-9 mb-2 mb-md-0">
+                                <input type="email" class="form-control form-control-lg" placeholder="Ingresa tu correo para mas informacion">
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <button type="submit" class="btn btn-block btn-lg btn-primary" onclick=r eset()>Contactanos!</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Icons Grid -->
+    <section class="features-icons bg-light text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <i class="icon-screen-desktop m-auto text-primary"></i>
+                        </div>
+
+                        <a href="loader_to_ingei.html">
+                            <h3> Ingenieria de Sistemas</h3>
+                        </a>
+
+                        <p class="lead mb-0">Mas informacion</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <i class="icon-layers m-auto text-primary"></i>
+                        </div>
+                        <a href="loader_to_merc.html">
+                            <h3>Mercadeo</h3>
+                        </a>
+                        <p class="lead mb-0">Mas informacion!</p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4">
+
+                    <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <i class="icon-check m-auto text-primary"></i>
+                        </div>
+                        <a href="loader.html">
+                            <h3>Psicología</h3>
+                        </a>
+                        <p class="lead mb-0">Mas informacion!</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Showcases -->
+    <section class="showcase">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+
+                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/kr2.jpg');"></div>
+                <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                    <h2>Nuestras Instalaciones</h2>
+                    <p class="lead mb-0">La Fundación Universitaria Konrad Lorenz, como resultado de sus objetivos humanos y sociales, está abierta a todos los pueblos del mundo, a sus diversas fuerzas sociales, a todas las manifestaciones de la cultura y el arte, así como
+                        a los avances del conocimiento científico y tecnológico.!</p>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+                <div class="col-lg-6 my-auto showcase-text">
+                    <h2>Nuestra Filosofia</h2>
+                    <p class="lead mb-0">La Fundación Universitaria Konrad Lorenz es una institución filosóficamente liberal que rige sus acciones por los principios fundamentales de la tolerancia, la libertad académica, de investigación, de aprendizaje y de cátedra, dentro
+                        del respeto a la constitución, a la Ley, a la ética y al rigor científico. Quienes se forman en la Fundación Universitaria Konrad Lorenz no podrán ser discriminados por razones de raza, sexo, credo o nacionalidad, ni en general
+                        por causa alguna distinta de su capacidad, su rendimiento académico y su integridad moral.!</p>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/kr3.jpg');"></div>
+                <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                    <h2> Graduados y Reviews</h2>
+                    <p class="lead mb-0"> “Café con Graduados” es un evento especialmente dirigido a todos nuestros graduados konradistas de los diferentes programas de pregrado y posgrado de la institución, en este espacio aprenderemos y disfrutaremos de una plácida tarde
+                        con colegas y directivos de la institución.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials text-center bg-light">
+        <div class="container">
+            <h2 class="mb-5">Palabras de nuestros graduados</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
+                        <h5>Margaret E.</h5>
+                        <p class="font-weight-light mb-0">"Tengo pereza we!"</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
+                        <h5>Fred S.</h5>
+                        <p class="font-weight-light mb-0">"Muchos de nuestros profesores son doctores, supongo que es cool."</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
+                        <h5>Sarah W.</h5>
+                        <p class="font-weight-light mb-0">"Chale.jpg"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Call to Action -->
+    <section class="call-to-action text-white text-center">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mx-auto">
+                    <h2 class="mb-4">Interesado? Inscribete a nuestro boletin!</h2>
+                </div>
+                <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+                    <form>
+                        <div class="form-row">
+                            <div class="col-12 col-md-9 mb-2 mb-md-0">
+                                <input type="email" class="form-control form-control-lg" placeholder="Ingresa tu correo para mas informacion...">
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item">
+                            <a href="#">Mas informacion</a>
+                        </li>
+                        <li class="list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#">Contactanos</a>
+                        </li>
+                        <li class="list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#">Terminos de uso</a>
+                        </li>
+                        <li class="list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#">Privacidad</a>
+                        </li>
+                    </ul>
+                    <p class="text-muted small mb-4 mb-lg-0">&copy; Konrad Lorenz 2020. All Rights Reserved.</p>
+                </div>
+                <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item mr-3">
+                            <a href="#">
+                                <i class="fab fa-facebook fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item mr-3">
+                            <a href="#">
+                                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fab fa-instagram fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
