@@ -23,21 +23,21 @@
                 </h4>
                 <h4 class="card-title mt-3 text-center" class="card-title mt-3 text-center">Crea tu Cuenta!</h4>
 
-                <p class="text-center">Totalmente gratuita!</p>
+                <p class="text-center">Nos ayuda a mantenernos en contacto!</p>
 
                 <form>
                     <div class="form-group input-group">
                         <div class="input-group-prepend">
                             <span class="input-group-text"> <i class="fa fa-user"></i> </span>
                         </div>
-                        <input name="" class="form-control" placeholder="Nombre Completo" type="text">
+                        <input name="nombre" class="form-control" placeholder="Nombre Completo" type="text">
                     </div>
                     <!-- form-group// -->
                     <div class="form-group input-group">
                         <div class="input-group-prepend">
                             <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
                         </div>
-                        <input name="" class="form-control" placeholder="Correo" type="email">
+                        <input name="correo" class="form-control" placeholder="Correo" type="email">
                     </div>
                     <!-- form-group// -->
                     <div class="form-group input-group">
@@ -50,18 +50,20 @@
                     <option value="2">+198</option>
                     <option value="3">+701</option>
                 </select>
-                        <input name="" class="form-control" placeholder="Numero de Telefono" type="text">
+                        <input name="telefono" class="form-control" placeholder="Numero de Telefono" type="text">
                     </div>
+                    
                     <!-- form-group// -->
                     <div class="form-group input-group">
                         <div class="input-group-prepend">
                             <span class="input-group-text"> <i class="fa fa-building"></i> </span>
                         </div>
                         <select class="form-control">
-                    <option selected="">Como supiste de la Institucion?</option>
-                    <option>Egresados</option>
-                    <option>Anuncios</option>
-                    <option>otro</option>
+                    <option name= "saber" selected="">Como te vas a registrar?</option>
+                    <option>Estudiante</option>
+                    <option>Administrativo</option>
+                    <option>Profesor</option>
+                    <option>Aspirante</option>
                 </select>
                     </div>
                     <!-- form-group end.// -->
@@ -87,7 +89,15 @@
             </article>
         </div>
         <!-- card.// -->
-
+        <?php 
+        
+        $saber = $_POST["saber"];
+        $nombre = $_POST["nombre"];
+        $correo = $_POST["correo"];
+        $telefono = $_POST["telefono"];
+        
+        
+        ?>
     </div>
     <!--container end.//-->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
